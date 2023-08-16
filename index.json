@@ -1,0 +1,8 @@
+{
+  "run": [{
+    "method": "shell.run",
+    "params": {
+      "message": "{{os.platform() === 'win32' ? 'set' : 'env'}}"
+    }
+  }]
+}
