@@ -5,6 +5,8 @@
       "message": "python -m venv ttsenv"
     }
   }, {
+    "method": "shell.start"
+  }, {
     "method": "shell.enter",
     "params": {
       "message": "{{os.platform() === 'win32' ? 'env\\\\Scripts\\\\activate' : 'source env/bin/activate'}} ttsenv",
